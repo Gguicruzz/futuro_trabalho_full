@@ -13,7 +13,7 @@ Apresenta 10 perfis fictícios (array), cards dinâmicos, modal com slideshow de
 ## Como rodar
 1. Clonar o repositório:
 ```
-git clone <SEU_REPO_URL>
+git clone <https://github.com/Gguicruzz/futuro_trabalho_full/>
 cd futuro_do_trabalho
 ```
 2. Abrir `index.html` no navegador ou rodar servidor local:
@@ -28,7 +28,10 @@ Não há autenticação por padrão. Caso queira adicionar contas para demonstra
 - senha: `senha123`
 
 ## Link do deploy
-- Exemplo (preencha): `https://SEU_USUARIO.github.io/SEU_REPO/`
+ `https://gguicruzz.github.io/futuro_trabalho_full/`
+
+ ## Link do repositório
+ `https://github.com/Gguicruzz/futuro_trabalho_full/`
 
 ## Estrutura de commits (sugestão - mínimo 10 commits)
 1. inicial: estrutura do projeto
@@ -43,18 +46,7 @@ Não há autenticação por padrão. Caso queira adicionar contas para demonstra
 10. final: preparar entrega
 
 ## Integrantes (substitua pelos nomes e RMs reais)
-- Nome 1 — RM: 000000
-- Nome 2 — RM: 000000
-- Nome 3 — RM: 000000
+- Guilherme Cruz Alves — RM: 566861
+- Erik Kazuo Funagoshi Nery — RM: 568416
 
-## Observações para a entrega
-Entregar via Teams:
-- Link do repositório GitHub
-- Link do deploy (GitHub Pages)
-- Arquivo `README.md`
-- (Opcional) zip do projeto
 
-Boa sorte — se quiser eu posso:
-- Atualizar o README com os nomes/RMs do grupo.
-- Gerar o repositório no GitHub (passo a passo).
-- Criar slides de apresentação com os principais pontos.
