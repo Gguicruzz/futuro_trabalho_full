@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Futuro do Trabalho — Rede Profissional</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">FuturoWork</div>
+    <nav>
+      <button id="open-quiz" class="btn-link">Quiz</button>
+      <a href="#profiles" class="btn-link">Profissionais</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>O Futuro do Trabalho</h1>
+      <p>Conectando pessoas, competências e propósito por meio da tecnologia.</p>
+      <div class="hero-cta">
+        <a href="#profiles" class="btn-primary">Explorar Profissionais</a>
+        <button id="demo-filter" class="btn-secondary">Filtrar: JavaScript</button>
+      </div>
+    </section>
+
+    <section id="profiles" class="profiles-section">
+      <h2>Profissionais</h2>
+      <div id="profiles-container" class="profiles-grid">
+        <!-- Cards serão inseridos via JavaScript -->
+      </div>
+    </section>
+
+    <div id="quiz-modal" class="quiz-modal" aria-hidden="true">
+      <div class="quiz-box">
+        <button id="close-quiz" class="close">×</button>
+        <h3>Quiz: Mercado do Trabalho</h3>
+        <div id="quiz-area-city" class="filters">
+          <label>Área:
+            <select id="quiz-area">
+              <option value="all">Todas</option>
+              <option>Desenvolvimento</option>
+              <option>Design</option>
+              <option>Dados</option>
+              <option>Marketing</option>
+            </select>
+          </label>
+          <label>Cidade:
+            <select id="quiz-city">
+              <option value="all">Todas</option>
+              <option>São Paulo</option>
+              <option>Porto Alegre</option>
+              <option>Belo Horizonte</option>
+              <option>Recife</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="quiz-container" class="quiz-container"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Modal / SlideShow -->
+  <div id="profile-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="modal-close" class="close">×</button>
+      <div class="modal-body">
+        <aside class="modal-left">
+          <img id="modal-photo" src="" alt="Foto do profissional" />
+          <h3 id="modal-name"></h3>
+          <p id="modal-role" class="muted"></p>
+          <div id="modal-skills" class="tag-list"></div>
+          <div class="modal-actions">
+            <button class="btn-primary">Recomendar profissional</button>
+            <button class="btn-secondary">Enviar mensagem</button>
+          </div>
+        </aside>
+
+        <section class="modal-right">
+          <div id="slide-content" class="slide-content"></div>
+          <div class="slide-controls">
+            <button id="slide-prev" class="btn-link">◀</button>
+            <span id="slide-counter">1 / 3</span>
+            <button id="slide-next" class="btn-link">▶</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Feito para a atividade "Futuro do Trabalho" • Projeto didático</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
